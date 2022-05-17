@@ -5,7 +5,7 @@ class Player:
         self.character = character
     def GetPosX(self):
         return self._pos_x
-    def GetPosy(self):
+    def GetPosY(self):
         return self._pos_y
     def Character(self):
         return self._character

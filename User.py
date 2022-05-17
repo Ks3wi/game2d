@@ -9,25 +9,25 @@ class User(Player.Player):
         user_input = input("Move: ")
         if user_input == "a":
             if self._pos_x == 0:
-                self._pos_x == 3
+                self._pos_x = 3
             else:
                 self._pos_x -= 1
             #idz w lewo
         elif user_input == "d":
-            if self._pos_x == 0:
-                self._pos_x == 3
+            if self._pos_x == 3:
+                self._pos_x = 0
             else:
-                self._pos_x -= 1
+                self._pos_x += 1
             #idz w prawo
         elif user_input == "w":
             if self._pos_y == 0:
-                self._pos_y == 3
+                self._pos_y = 3
             else:
                 self._pos_y -= 1
             #idz w gore
         elif user_input == "s":
-            if self._pos_y == 0:
-                self._pos_y == 3
+            if self._pos_y == 3:
+                self._pos_y = 0
             else:
                 self._pos_y += 1
             #idz w dol
