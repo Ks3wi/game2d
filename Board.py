@@ -20,4 +20,4 @@ class Board:
                 print("]", end="")
             print()
     def SetPosition(self, char, x, y):
-        pass
+        self.__board[x][y] = char

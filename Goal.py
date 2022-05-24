@@ -1,4 +1,4 @@
-from random import random
+import random
 import Player
 class Goal(Player.Player):
     def __init__(self, character):
